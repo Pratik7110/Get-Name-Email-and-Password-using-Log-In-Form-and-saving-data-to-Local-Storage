@@ -1,0 +1,20 @@
+.homediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.homediv button{
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(1, 1, 133);
+    background-color: rgb(199, 199, 243);
+    padding: 2px 5px;
+}
+.homediv button:hover{
+background-color: rgb(154, 154, 236);
+cursor: pointer;
+}

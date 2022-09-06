@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.main form{
+    background-color:rgb(238, 238, 255);
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+.semimain{
+    margin: 15px 30px;
+}
+.semimain p {
+    color: rgb(0, 0, 114);
+}
+
+form h2 {
+    color: blue;
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+form input{
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(1, 1, 133);
+    background-color: rgb(199, 199, 243);
+    padding: 2px 5px;
+}
+form input:hover{
+    background-color: rgb(154, 154, 236);
+}
+
+.button{
+    display: grid;
+}
+
+.button input{
+    background-color: rgb(124, 124, 233);
+    color: rgb(0, 0, 95);
+}
+.button input:hover{
+    cursor: pointer;
+    background-color: rgb(88, 88, 231);
+    color: rgb(0, 0, 95);
+}
